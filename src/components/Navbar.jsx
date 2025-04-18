@@ -1,0 +1,34 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Navbar = () => {
+    return (
+        <nav>
+            <ul>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/cities">Cities</Link>
+                </li>
+                <li>
+                    <Link to="/airports">Airports</Link>
+                </li>
+                <li>
+                    <Link to="/passengers">Passengers</Link>
+                </li>
+                <li>
+                    <Link to="/aircrafts">Aircrafts</Link>
+                </li>
+                <li>
+                    <Link to="/flights">Flights</Link>
+                </li>
+                <li>
+                    <Link to="/gates">Gates</Link>
+                </li>
+            </ul>
+        </nav>
+    );
+};
+
+export default Navbar;
